@@ -1,3 +1,4 @@
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import React from 'react'
 import './App.css'
 import Home from './components/Home'
@@ -35,6 +36,13 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <div>
+        <MessengerCustomerChat
+          pageId="105409911443105"
+          appId="338273787600006"
+          htmlRef="<REF_STRING>"
+        />
+      </div>
     </div>
   );
 }
